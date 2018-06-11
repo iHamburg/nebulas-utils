@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb37cf6-ce21-43c6-bfc6-d68c6601c319" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/git.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/nebulasUtils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,30 +24,42 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="git.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nebulasUtils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/nebulasUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="24" column="58" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/git.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="64">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -62,15 +74,22 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>console</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scripts/git.sh" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/lib/nebulasUtils.js" />
+        <option value="$PROJECT_DIR$/examples/test.js" />
       </list>
     </option>
   </component>
@@ -87,8 +106,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1322" />
-    <option name="height" value="877" />
+    <option name="width" value="1523" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -136,6 +155,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nebulas-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nebulas-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nebulas-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nebulas-utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -170,7 +217,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration default="false" name="git.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/git.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="nebulas-utils" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/examples">
+      <method />
+    </configuration>
+    <configuration default="false" name="nebulasUtils.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="nebulasUtils.js" working-dir="$PROJECT_DIR$/lib">
+      <method />
+    </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -242,6 +306,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Bash.git.sh" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.nebulasUtils.js" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.nebulasUtils.js" />
+        <item index="2" class="java.lang.String" itemvalue="Bash.git.sh" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -253,21 +329,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528700350507</updated>
-      <workItem from="1528700351726" duration="124000" />
+      <workItem from="1528700351726" duration="3500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124000" />
+    <option name="totallyTimeSpent" value="3500000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1322" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1523" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21637817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -302,29 +378,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/git.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nebpay.js/libs/qrcode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="18" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/git.sh">
+    <entry file="file://$PROJECT_DIR$/lib/nebulasUtils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="352">
+          <caret line="24" column="58" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
