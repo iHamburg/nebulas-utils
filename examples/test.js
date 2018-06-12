@@ -19,3 +19,10 @@ nebulasUtils.query('login', ['123', 'sss'], (err) => {
   // console.log(result);
 })
 
+nebulasUtils.queryPromise('login', ['123', 'sss'])
+.then((result) => {
+  console.log(' result', result);
+})
+.catch(err => {
+  console.log('err ', err);
+})
